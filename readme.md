@@ -10,7 +10,7 @@
 
 5. php artisan migrate
 
-6. php artisan passport install
+6. php artisan passport:install
 
 7. php artisan storage:link
 
