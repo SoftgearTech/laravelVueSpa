@@ -31,7 +31,7 @@
 								required="required"
 								autofocus="autofocus"
                                 v-model="user.verification_code"
-							/>
+							/> 
 							<label for="verificationCode">Enter verification code</label>
                             <div class="invalid-feedback" v-if="errors.verification_code">{{errors.verification_code[0]}}</div>
 						</div>
