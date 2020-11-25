@@ -32,7 +32,7 @@ class AuthController extends Controller
                 'message' => 'Some errorr occurred, Please try again',
                 'status_code' => 500
             ], 500);
-        }
+        } 
     }
 
     public function login(Request $request) {
